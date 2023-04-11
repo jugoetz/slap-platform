@@ -1,3 +1,13 @@
+# custom ignored files
+data/*
+!data/.gitkeep
+
+# MacOS
+*.DS_Store
+
+# Pycharm
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

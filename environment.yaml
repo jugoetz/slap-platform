@@ -1,0 +1,13 @@
+name: slap-platform
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.*
+  - rdkit=2022.09.*
+  - scikit-learn=1.2.*
+  - pandas=1.5.*
+  - openpyxl
+  - seaborn=0.12.*
+  - pip
+  - pip:
+    - jupyter
