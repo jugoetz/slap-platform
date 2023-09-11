@@ -1,7 +1,10 @@
 # SLAP Platform - Data Analysis and Virtual Library
 Code to accompany the paper 
 
->J. Götz, M. K. Jackl, C. Jindakun, A. N. Marziale, J. André, D. J. Gosling, C. Springer, M. Palmieri, M. Reck, A. Luneau, C. E. Brocklehurst, J. W. Bode, High-throughput synthesis and data generation for the prediction of molecular properties and synthesizability, *under review*.
+>J. Götz, M. K. Jackl, C. Jindakun, A. N. Marziale, J. André, D. J. Gosling, C. Springer, M. Palmieri, M. Reck, A. Luneau, C. E. Brocklehurst, J. W. Bode, High-throughput synthesis provides data for predicting molecular properties and reaction success, *under review*.
+
+See also:
+[https://github.com/jugoetz/slap-platform-predict](https://github.com/jugoetz/slap-platform-predict) for the code used for machine learning
 
 The code in this repository serves two purposes:
 1) Provide an accessible frontend for the virtual library
