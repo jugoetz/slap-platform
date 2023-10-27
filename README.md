@@ -1,7 +1,9 @@
 # SLAP Platform - Data Analysis and Virtual Library
+[![DOI:10.1126/sciadv.adj2314](https://zenodo.org/badge/DOI/10.1126/sciadv.adj2314.svg)](https://doi.org/10.1126/sciadv.adj2314)
+
 Code to accompany the paper 
 
->J. Götz, M. K. Jackl, C. Jindakun, A. N. Marziale, J. André, D. J. Gosling, C. Springer, M. Palmieri, M. Reck, A. Luneau, C. E. Brocklehurst, J. W. Bode, High-throughput synthesis provides data for predicting molecular properties and reaction success, *under review*.
+>J. Götz, M. K. Jackl, C. Jindakun, A. N. Marziale, J. André, D. J. Gosling, C. Springer, M. Palmieri, M. Reck, A. Luneau, C. E. Brocklehurst, J. W. Bode, High-throughput synthesis provides data for predicting molecular properties and reaction success *Sci. Adv.* **2023**, *9*, eadj2314.
 
 See also:
 [https://github.com/jugoetz/slap-platform-predict](https://github.com/jugoetz/slap-platform-predict) for the code used for machine learning
@@ -39,12 +41,12 @@ jupyter-notebook
 
 ### Data
 Data are read from `PROJECT_ROOT/data/`. Download the supplementary data from
-[Zenodo](https://doi.org/10.5281/zenodo.7950707) and place it in the `data` directory.
+[Zenodo](https://doi.org/10.5281/zenodo.7950706) and place it in the `data` directory.
 You will need Data S1 to run the data processing notebooks,
 Data S3 to run the data splitting notebooks,
-and Data S4 (extract the tar archive!) to run the virtual library frontend.
+and `virtual_library.tar` (extract the tar archive!) to run the virtual library frontend.
 
 ### Virtual Library Frontend
 The virtual library frontend allows querying the virtual library for a single SMILES string.
-To use it, download Data S4 from [Zenodo](https://doi.org/10.5281/zenodo.7950707) and extract it into the `data` directory.
+To use it, download `virtual_library.tar` from [Zenodo](https://doi.org/10.5281/zenodo.7950706) and extract it into the `data` directory.
 Then, run the `vl_frontend.ipynb` notebook (start the Jupyter server as described in `Usage`).
